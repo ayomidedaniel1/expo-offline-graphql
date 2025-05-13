@@ -21,5 +21,18 @@ It demonstrates:
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/your-username/offline-cache-apollo.git
-cd offline-cache-apollo
+git clone https://github.com/ayomidedaniel1/expo-offline-graphql.git
+cd expo-offline-graphql
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the dev server:
+
+```bash
+npx expo start
+```
