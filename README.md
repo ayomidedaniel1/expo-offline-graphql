@@ -8,14 +8,6 @@ It demonstrates:
 - Offline network detection with `expo-network`
 - Querying and reading from local cache when offline
 
-## 🛠 Tech Stack
-
-- React Native + Expo Router
-- Apollo Client
-- GraphQL Zero (demo API)
-- AsyncStorage
-- Expo Network
-
 ## 🔧 Setup
 
 1. Clone this repo:

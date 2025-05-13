@@ -4,6 +4,7 @@ import { OfflineBanner } from '../components/OfflineBanner';
 import { useApollo } from '../lib/apollo';
 import { GET_USER } from '../lib/gql/queries';
 
+// A component that renders user data from GraphQL
 function Home() {
   const { data, loading } = useQuery(GET_USER);
 
