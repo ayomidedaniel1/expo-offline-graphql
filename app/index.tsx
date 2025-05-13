@@ -11,7 +11,7 @@ function Home() {
   if (loading) return <ActivityIndicator />;
 
   return (
-    <View style={{ padding: 16 }}>
+    <View style={{ padding: 16, justifyContent: 'center', alignItems: 'center' }}>
       <Text style={{ fontSize: 18 }}>{data?.user?.name}</Text>
       <Text>{data?.user?.email}</Text>
     </View>

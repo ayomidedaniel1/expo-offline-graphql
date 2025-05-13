@@ -15,8 +15,8 @@ export const OfflineBanner = () => {
   if (!isOffline) return null;
 
   return (
-    <View style={{ backgroundColor: 'red', padding: 8 }}>
-      <Text style={{ color: 'white' }}>You are offline</Text>
+    <View style={{ backgroundColor: '#F6F8FA', padding: 8 }}>
+      <Text style={{ color: 'blue' }}>You are offline</Text>
     </View>
   );
 };
